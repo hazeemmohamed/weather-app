@@ -93,7 +93,10 @@ function App() {
 
   
   <div className="flex justify-between items-center w-full text-gray-600" >
-    <p>Lat: <span className='text-black'>{lat}</span>, Long<span className='text-black'>{long}</span></p>
+    <h1>
+      <p>Lat: <span className='text-black'>{" "}{lat}</span></p>
+    <p>Long: <span className='text-black'>{" "}{long}</span></p>
+    </h1>
     <p>Humidity: <span className='text-black'>{humidity}</span></p>
 
   </div>
