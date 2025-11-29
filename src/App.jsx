@@ -30,7 +30,7 @@ function App() {
     setDescription("");
     setHumidity("");
     setLat("");
-    setLon("");
+    setLong("");
     setError("");
     }
   }, [search]); 
