@@ -27,8 +27,11 @@ function App() {
    useEffect(() => {
     if (search.trim() === "") {
       setTemp("");
-      setDescription("");
-      setError("");
+    setDescription("");
+    setHumidity("");
+    setLat("");
+    setLon("");
+    setError("");
     }
   }, [search]); 
  
